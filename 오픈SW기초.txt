@@ -78,6 +78,9 @@ Difference
 
 -git ignore
 어떤 폴더나 확장자를 설정하면 그 폴더나 확장자를 추적하지 않아 업로드를 하지 않음
+
+-github desktop 프로그램 내에서 repository를 삭제한다 하더라도 local-repository만 없어지고 원격 저장소는 없어지지 않는다
+원격 저장소를 없애기 위해서는 사이트에 가서 삭제할 수 있다
 · 
 · 
 · 
