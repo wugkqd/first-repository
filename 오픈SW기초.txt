@@ -52,3 +52,5 @@ ex) 시뮬레이션, 운영체제 프로세스 스케쥴링
 
 github desktop에서 commit 할 파일이 2개 이상이면 commit message를 자동으로 남기지 않는다.
 
+github desktop에서 우측 상단에 Push origin 숫자↑ 에서 숫자는 파일의 개수를 알려주는 것
+ex) Push origin 2↑의 경우 파일 2개를 업로드 한다는 것을 의미
