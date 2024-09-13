@@ -23,8 +23,32 @@ diff 명령어: 두 가지 내용을 비교하는 것
 파일은 원격 저장소에 commit할 때 commit message는 필수(github desktop에선 자동으로 입력 됨)
 
 2024-09-13
-
+★시험에 나올 수 있다★
 github desktop -History에서 제일 밑에 있는 것이 가장 오래된 것이다.
 순차적으로 이력들이 밑에서부터 쌓이기 시작함
 가장 위에 있는 것이 최근 기록
 이러한 자료 구조를 "stack 자료구조"라고 부른다
+
+입력은
+6
+5
+4
+3
+2
+1
+순서이지만
+
+출력할 때는
+6->5->4->3->2->1 순서로 출력이 되며, 하나를 출력할 때마다 없어진다
+input: 1 2 3 4 5 6
+output: 6 5 4 3 2 1
+
+stack 자료구조에선 input과 output이 반대이다.
+ex) ctrl+z
+
+자료구조 큐에선 input과 output이 같다
+ex) 시뮬레이션, 운영체제 프로세스 스케쥴링
+★★
+
+github desktop에서 commit 할 파일이 2개 이상이면 commit message를 자동으로 남기지 않는다.
+
