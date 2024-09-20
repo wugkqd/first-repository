@@ -108,6 +108,8 @@ local repository에서 remote repository로 올리는 것은 push 명령어
 work space와 remote repository의 내용이 다르면 pull 명령어
 rebase: 다음 강의 때 다시 설명
 remote repository에서 local repository로 다운 받는 것은 fetch명령어이다
+Pull repository 이미지는 암기 해야 됨(시험에 나올 가능성 매우 높음)
+
 
 · 
 · 
