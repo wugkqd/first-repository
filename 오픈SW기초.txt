@@ -100,8 +100,14 @@ PC -> 원격 저장소 : PUSH
 ② 원격 저장소 <-동기화-> 로컬 저장소 (나중에 실습할 예정)
 원격 저장소에 여러 개의 로컬 저장소가 연결이 되어 있는 상태에서 다른 로컬 저장소에서 push를 하여 원격 저장소의 내용이 바뀌어 다른 로컬 저장소의 내용과 원격 저장소의 내용에 차이가 생겨 새로 다운로드를 하여 반영을 해야 하는데 이것을 pull 명령어라고 한다
 
-
-
+loacl repository와 index는 보이지 않는다
+add (-u): work space에서 작업한 내용을 index로 올리는 것
+commit: index에서 local repository로 올리는 것
+add (-u) + commit = comit -a
+local repository에서 remote repository로 올리는 것은 push 명령어
+work space와 remote repository의 내용이 다르면 pull 명령어
+rebase: 다음 강의 때 다시 설명
+remote repository에서 local repository로 다운 받는 것은 fetch명령어이다
 
 · 
 · 
