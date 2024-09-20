@@ -73,7 +73,7 @@ Difference
 
 · 여러 저장소 다루기
 -git에서는 주제 또는 목적에 따라 다수의 저장소를 생성하여 관리할 수 있음
--또한 하나의 원격 저장소에 대해 여러 컴퓨터 상의 로컬 저장소를 연동하여 사용할 수 있으며, 이를 통해 각 기기관의 문서 내용을 최신 상태로 유지하고 효과적으로 관리할 수 있음
+-또한 하나의 원격 저장소에 대해 여러 컴퓨터 상의 로컬 저장소를 연동하여 사용할 수 있으며, 이를 통해 각 기기간의 문서 내용을 최신 상태로 유지하고 효과적으로 관리할 수 있음
 -Github Desktop에서는 여러 저장소를 다루기 위한 git 명령 중 저장소 생성 기능 외에도 remove, clone, pull과 같은 다양한 저장소 관리 기능을 제공함
 
 -git ignore
@@ -170,6 +170,25 @@ View - Changes
 최근까지 수행한 문서 변경 이력 확인
 View - History
 
-· 
-· 
-· 
+현재 로컬 저장소 위치에서 Shell(= Git Bash, ...) 열기
+Repository - Open in Git Bash
+File - Options - Integrations에서 설정된 "Shell"과 "External editor"에 따라 메뉴 이름이 다르게 표시됨.
+
+현재 로컬 저장소 위치에서 external editor (=VS, ...) 열기
+File - Options - Integrations에서 설정된 "Shell"과 "External editor"에 따라 메뉴 이름이 다르게 표시됨.
+
+현재 로컬 저장소에 대한 workspace 폴더 열기
+Repository - Show in explorer
+
+현재 로컬 저장소와 연동된 원격 저장소 열기
+Repository - View in GitHub
+
+GitHub Desktop 사용자 가이드 보기
+Help - Show User Guides
+GitHub Desktop 공식 문서
+
+*Summary(Commit Message)*
+· Git에서는 활용 용도에 따라 하나 이상의 저장소를 운용할 수 있으며, 여러 저장소에 대한 다양한 관리 기능을 제공한다
+· GitHub에서 제공하는 원격 저장소를 다수의 로컬 저장소와 연동함으로써 여러 대의 물리적 장치에서 동일한 환경을 저장소를 구축하고 원격으로 작업을 수행할 수 있다.
+· GitHub에서는 저장소의 원격 운용과 복제를 위해 Push와 Pull, Clone 명령을 제공한다.
+· 원격 저장소와 연동하여 로컬 저장소를 활용하는 경우 Push와 Pull 명령을 통해 저장소 간 동기화를 수행할 수 있다.
