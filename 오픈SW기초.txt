@@ -220,3 +220,18 @@ C언어에서의 포인터
 메모리에서의 특정 위치를 가르키는 것
 
 
+Branch
+각각의 원: commit
+가장 최신 commit일 경우 그 commit을 가리키는 ←main(HEAD) 이 표시 됨
+새로 branch를 만드는 것이 "분기", 합치는 것이 "합병"이다.
+branch의 경우 윈도우 탐색기로 직접 들어가는 것이 불가능, GitHub Desktop-중앙 상단부 Current branch를 원하는 branch로 변경 후 -Show in Explorer을 통해 들어가야 한다.
+
+*2024-09-26 수업 중 실습하는 내용*                            base                                          document4.txt 생성
+-○-------------------------○---------------------●-------------------------------------------------○--Main Branch
+ document1.txt 수정      document1.txt 수정  │document1.txt 수정  document2.txt 수정  document3.txt 생성 
+                                                              └●---------------------●---------------------●--Branch1
+ └document1.txt , document2.txt┘     --copy->           (document1.txt , document2.txt 존재)
+
+
+Branch Merge는 다음 시간에 함
+
