@@ -264,3 +264,16 @@ Branch A 를 Branch B에 합병하기 위해서는 Current Branch를 Branch B �
 ★Branch의 삭제★
 Branch의 경우 로컬에서 원격 저장소에 있는 것도 삭제 가능.
 Repository는 Local repository에서 Remote repository는 삭제 불가.
+
+
+
+
+
+
+
+
+
+
+
+
+
