@@ -235,7 +235,7 @@ branch의 경우 윈도우 탐색기로 직접 들어가는 것이 불가능, Gi
 Branch-1과 Branch-2에서 문서 A의 같은 부분을 편집했다면, 합병 시 어떤 문제점이 존재하는가?
 - 충돌 발생할 수 있다. 
 
-Branch합병의 종류
+★Branch합병의 종류★ (시험에 나옴)
 
 1. Merge
  ① Fast-forward
@@ -261,4 +261,6 @@ Branch A 를 Branch B에 합병하기 위해서는 Current Branch를 Branch B �
 
 
 
-
+★Branch의 삭제★
+Branch의 경우 로컬에서 원격 저장소에 있는 것도 삭제 가능.
+Repository는 Local repository에서 Remote repository는 삭제 불가.
