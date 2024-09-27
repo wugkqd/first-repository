@@ -228,10 +228,37 @@ branch의 경우 윈도우 탐색기로 직접 들어가는 것이 불가능, Gi
 
 *2024-09-26 수업 중 실습하는 내용*                            base                                          document4.txt 생성
 -○-------------------------○---------------------●-------------------------------------------------○--Main Branch
- document1.txt 수정      document1.txt 수정  │document1.txt 수정  document2.txt 수정  document3.txt 생성 
-                                                              └●---------------------●---------------------●--Branch1
+ document1.txt 수정      document1.txt 수정  │    document1.txt 수정  document2.txt 수정  document3.txt 생성 
+                                                              └----●---------------------●---------------------●--Branch1
  └document1.txt , document2.txt┘     --copy->           (document1.txt , document2.txt 존재)
 
+Branch-1과 Branch-2에서 문서 A의 같은 부분을 편집했다면, 합병 시 어떤 문제점이 존재하는가?
+- 충돌 발생할 수 있다. 
 
-Branch Merge는 다음 시간에 함
+Branch합병의 종류
+
+1. Merge
+ ① Fast-forward
+       -Branch1이 main Branch로부터 분기된 이후 main branch에 새로운 coomit이발생하지 않은 경우, Branch1의 	commit들을 그대로 Main Branch에 합병하는 방법.
+ ② 3-way merge
+       -Branch1의 commit들을 참조(refer)하는 새로운 commit이 생성되고, 이 새로운 commit을 MAin Branch에 추가하	는 형태로 병합함.
+       -이 경우, 3-way merge로 병합된 commit은 Branch1과 Main Branch라는 두 개의 parents를 가짐
+       -Branch1의 commit들이 Main Branch에 합병되더라도 Branch1에서 수행한 commit 이력(History)은 그대로 남음. 
+
+2. Squash
+       -Main Branch에서 분기한 Branch1에서 수행한 commit들을 새로운 commit을 만들어 해당 commit에 모두 통합한 	후(squash) 이 commit을 Main Branch에 추가하는 방법.
+       -Squash and Merge를 수행하게 되면 Branch1의 모든 commit 이력이 하나의 commit으로 합쳐지므로, commit 	history를 깔끔하게 정리하기 위한 방법으로도 활용됨.
+
+3. Rebase
+        -base(Branch의 분기점)을 이동시키는 방법
+        -Main Branch에서 Branch1의 분기가 발생한 지점(base)를 최신 commit의 지점으로 변경함(=Rebase)
+        -Rebase 이후 Main Branch에 Branch1을 "fast-forward" 병합을 수행함.
+
+
+Branch A 를 Branch B에 합병하기 위해서는 Current Branch를 Branch B 로 변경 후 합병 해야한다 (=checkout 명령)
+즉, HEAD가 Branch B를 가리키도록 설정한 후 합병 진행한다.
+
+
+
+
 
